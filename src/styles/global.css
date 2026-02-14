@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: none;
+}
+
+:root{
+    --font: "Open Sans", sans-serif;
+
+
+    --bg-color-def: #F5F4F0;
+    --border-primary:#D9D9D9;
+
+    /* Text colors */
+    --text-primary:#1B1B1B;
+    --text-secondary:#333333;
+    --text-tertiary:#696969;
+    --text-headline:#E1624F;
+
+    /*  Accent */
+    --accent-blue:#0C51A7;
+    --accent-orange:#E95E10;
+    --accent-pink:#E5245E;
+    --accent-purple:#591B98;
+}
+
+body{
+    font-family: var(--font);
+}

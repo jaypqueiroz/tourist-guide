@@ -1,0 +1,210 @@
+@import url(./global.css);
+
+body{
+    background-color: var(--bg-color-def);    
+}
+
+#main{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+    width: 1120px;
+    padding: 88px 80px 48px 80px;
+    margin:auto;
+}
+
+#tittle{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 79px;
+    width: 1120px;
+    margin-bottom: 40px;
+}
+
+#tittle > p{
+    height: 22px;
+    color: var(--text-headline);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#tittle > h1{
+    height: 38px;
+    color: var(--text-primary);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    height: 729px;
+    width: 1120px;
+    margin-top: 4px;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+#int-text > p{
+    height: 37px;
+    font-style: italic;
+    font-size: 16px;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+ #tittle-list{
+   height: 68px;
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   width: 683px;
+   margin-bottom: 8px;
+}
+
+#tittle-list > p{
+    width: 255px;
+    height: 22px;
+    color: var(--text-headline);
+    font-weight: bold;
+    font-size: 16px;
+} 
+
+#tittle-list > h2{
+    height: 22px;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--text-primary);
+}
+
+#list-introduction{
+    height: 88px;
+    margin-bottom: 64px;
+
+}
+
+#list-introduction > p{
+    font-size: 16px;
+    color: var(--text-secondary);
+    width: 1120px;
+    text-align: justify;
+}
+
+#card-travel-1 {
+    height: 100%;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+#card-travel-1 > img{
+    border-radius: 28px;
+    margin-bottom: 20px; 
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card-content > h3{
+    height: 38px;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-left: 20px;
+}
+
+.card-content > p{
+    font-size: 16px;
+    color: var(--text-secondary);
+    /* margin-bottom: 20px; */
+}
+
+.topic{
+    margin-top: 20px;
+    color:var(--text-secondary);
+    font-weight: bold;
+}
+
+#card-travel-1 > .card-content> ul{
+    color: var(--accent-blue);
+    margin-left: 16px;
+}
+
+#card-travel-2 {
+    height: 100%;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+#card-travel-2 > img{
+    border-radius: 28px;
+    margin-bottom: 20px; 
+}
+
+#card-travel-2 > .card-content> ul{
+    color: var(--accent-blue);
+    margin-left: 16px;
+}
+
+
+#card-travel-3 {
+    height: 100%;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+#card-travel-3 > img{
+    border-radius: 28px;
+    margin-bottom: 20px; 
+}
+
+#casais{
+    color: var(--accent-purple);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+#familias{
+    color: var(--accent-pink);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+#orcamento{
+    color: var(--accent-orange);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+#description{
+    width: 1120px;
+    margin-bottom: 65px;
+}
+
+#description > p{
+    font-size: 16px;
+    color: var(--text-secondary);
+    text-align: center;    
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    font-size: 16px;
+}
+
