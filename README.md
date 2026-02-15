@@ -1,10 +1,4 @@
-# tourist-guide
-
-![alt text](src/assets/images/image.png)
-
-
-----------------------------------------------------------------------------------------------------
-
+# Tourist-Guide
 <!-- MODELO PROJETO FINALIZADO -->
 <h1 align="center"> 
 	 🌏 Tourist-Guide 🌏 
@@ -48,9 +42,9 @@
 ## 💻 Sobre o projeto
 
 <!-- EXPLICA O MOTIVO DO PROJETO -->
-Projeto desafio da plataforma de estudos Rocketseat, onde estou fazendo uma trilha de estudos em desenvolvedor Full-Stack.  Challenge project from the Rocketseat learning platform, where I am following a Full-Stack Developer study track.
------
-Turist Guide é um site que desenvolvi a partir de um template no Figma da plataforma Rocketseat, para testar meus conhecimentos em HTML e CSS.
+Projeto desafio da plataforma de estudos Rocketseat, onde estou fazendo uma trilha de estudos em desenvolvedor Full-Stack.<br> 
+
+ Challenge project from the Rocketseat learning platform, where I am following a Full-Stack Developer study track.
 
 ---
 
@@ -60,7 +54,7 @@ Turist Guide é um site que desenvolvi a partir de um template no Figma da plata
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1](https://github.com/jaypqueiroz/tourist-guide/tree/main/src/assets/images/image.png)
+![alt text](src/assets/images/image.png)
 
 ---
 
